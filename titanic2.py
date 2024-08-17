@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 import numpy as np
-import requierments2
+!pip install scikit-learn
 from sklearn.preprocessing import OneHotEncoder,StandardScaler
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
