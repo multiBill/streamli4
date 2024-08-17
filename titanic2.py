@@ -12,7 +12,7 @@ from sklearn.metrics import confusion_matrix , precision_score , recall_score
 import warnings
 warnings.filterwarnings('ignore')
 import streamlit as st
-import requierment
+import requierments2
 df = pd.read_csv("train.csv")
 x = df.drop('Survived',axis=1)
 y = df.Survived
