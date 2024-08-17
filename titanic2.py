@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 import numpy as np
+import requierment2
 from sklearn.preprocessing import OneHotEncoder,StandardScaler
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
